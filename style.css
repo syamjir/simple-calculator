@@ -1,0 +1,84 @@
+/* Reset and Box Sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: rgb(60, 57, 57);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin: 24px 0 18px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: unset;
+  font-family: "Lato", sans-serif !important;
+  line-height: 21px;
+  font-size: 32px;
+  color: rgb(120, 226, 237);
+}
+h1 span {
+  font-size: 15px;
+  color: rgb(156, 215, 222);
+}
+
+/* Container */
+.container {
+  width: 460px;
+  height: 540px;
+  background-color: rgb(45, 44, 44);
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Paragrapgh */
+p {
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 10px 0 15px 10px;
+  font-weight: 800;
+}
+
+/* Screen */
+#screen {
+  background-color: rgb(168, 213, 218);
+  height: 80px;
+  width: 440px;
+  margin: 12px 0;
+  font-size: 4rem;
+  text-align: right;
+  border-radius: 10px;
+}
+
+/* Button */
+.button {
+  background-color: rgb(62, 61, 61);
+  color: white;
+  width: 87px;
+  height: 70px;
+  font-size: 2.5rem;
+  margin: 10px;
+  border-radius: 15px;
+  transition: all ease;
+}
+.button:hover {
+  border: 3px solid rgb(164, 244, 44);
+}
+
+/* Additional Classes */
+.star {
+  text-align: center;
+}
+.clear {
+  background-color: red;
+}
+.operator {
+  background-color: grey;
+}
